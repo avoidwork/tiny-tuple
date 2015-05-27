@@ -1,9 +1,13 @@
-class Tuple {
+class Tuple extends Array {
 	constructor ( ...args ) {
-		this.items = [].concat( args );
+		super();
+		args.forEach( x => {
+			this.push( x );
+		} );
+		Object.freeze( this );
 	}
 
 	extract () {
-		return flatten( this.items );
+		return flatten( this );
 	}
 }

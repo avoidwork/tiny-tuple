@@ -1,5 +1,5 @@
-function factory ( items ) {
-	return new Tuple( items );
+function factory ( ...args ) {
+	return new Tuple( ...args );
 }
 
 factory.version = "{{VERSION}}";

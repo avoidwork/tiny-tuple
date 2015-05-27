@@ -29,6 +29,8 @@
     "grunt-babel": "^5.0.0",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-uglify": "^0.9.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-sed": "^0.1.1",
     "nodeunit": "^0.9.1"
