@@ -1,0 +1,32 @@
+{
+  "name": "tiny-tuple",
+  "version": "1.0.0",
+  "description": "Tiny Tuple library for Client or Server",
+  "main": "lib/tuple.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avoidwork/tiny-tuple.git"
+  },
+  "keywords": [
+    "tuple",
+    "immutable",
+    "set",
+    "list",
+    "ordered",
+    "sorted"
+  ],
+  "author": "Jason Mulligan <jason.mulligan@avoidwork.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/avoidwork/tiny-tuple/issues"
+  },
+  "homepage": "https://github.com/avoidwork/tiny-tuple",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "nodeunit": "^0.9.1"
+  }
+}
