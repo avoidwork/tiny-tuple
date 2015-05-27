@@ -6,7 +6,7 @@ module.exports = function (grunt) {
 				banner : "/**\n" +
 				         " * <%= pkg.description %>\n" +
 				         " *\n" +
-				         " * @author <%= pkg.author.name %> <<%= pkg.author.email %>>\n" +
+				         " * @author <%= pkg.author %>\n" +
 				         " * @copyright <%= grunt.template.today('yyyy') %> <%= pkg.author.name %>\n" +
 				         " * @license <%= pkg.license %>\n" +
 				         " * @link <%= pkg.homepage %>\n" +
