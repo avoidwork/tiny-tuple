@@ -15,8 +15,7 @@
     "immutable",
     "set",
     "list",
-    "ordered",
-    "sorted"
+    "ordered"
   ],
   "author": "Jason Mulligan <jason.mulligan@avoidwork.com>",
   "license": "BSD-3-Clause",
