@@ -18,7 +18,7 @@ exports["tuple"] = {
 		test.expect(3);
 		test.equal(x.length, 4, "Should be '4'");
 		test.equal(x[3].length, 2, "Should be '2'");
-		test.equal(x.extract().length, 5, "Should be '2'");
+		test.equal(x.extract().length, 5, "Should be '5'");
 		test.done();
 	}
 };
