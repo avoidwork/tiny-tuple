@@ -3,7 +3,7 @@ function flatten ( tuple ) {
 
 	tuple.forEach( function ( i ) {
 		if ( i instanceof Tuple ) {
-			result = result.concat( flatten( i ) );
+			result.push.apply( result, flatten( i ) );
 		} else {
 			result.push( i );
 		}

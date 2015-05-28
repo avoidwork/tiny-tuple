@@ -1,9 +1,7 @@
 class Tuple extends Array {
 	constructor ( ...args ) {
 		super();
-		args.forEach( x => {
-			this.push( x );
-		} );
+		this.push.apply( this, args );
 		Object.freeze( this );
 	}
 

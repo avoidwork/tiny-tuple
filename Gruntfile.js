@@ -82,5 +82,5 @@ module.exports = function (grunt) {
 	// aliases
 	grunt.registerTask("test", ["nodeunit"]);
 	grunt.registerTask("build", ["concat", "sed", "babel", "uglify"]);
-	grunt.registerTask("default", ["build"/*, "test"*/]);
+	grunt.registerTask("default", ["build", "test"]);
 };
