@@ -1,5 +1,5 @@
 # tiny-tuple
-Tiny tuple for Client or Server, which inherits from Array.
+Tiny tuple for Client or Server, which extends Array.
 
 [![build status](https://secure.travis-ci.org/avoidwork/tiny-tuple.svg)](http://travis-ci.org/avoidwork/tiny-tuple)
 
