@@ -1,6 +1,6 @@
 {
   "name": "tiny-tuple",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Tiny tuple for Client or Server",
   "main": "lib/tiny-tuple.js",
   "scripts": {

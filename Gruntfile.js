@@ -16,9 +16,10 @@ module.exports = function (grunt) {
 			dist: {
 				src : [
 					"src/intro.js",
+					"src/clone.js",
+					"src/flatten.js",
 					"src/tuple.js",
 					"src/factory.js",
-					"src/flatten.js",
 					"src/outro.js"
 				],
 				dest : "lib/<%= pkg.name %>.es6.js"
