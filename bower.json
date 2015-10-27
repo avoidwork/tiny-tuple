@@ -1,0 +1,29 @@
+{
+  "name": "tiny-tuple",
+  "description": "Tiny tuple for Client or Server",
+  "main": "lib/tiny-tuple.js",
+  "authors": [
+    "Jason Mulligan <jason.mulligan@avoidwork.com>"
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "tuple",
+    "immutable",
+    "set",
+    "list",
+    "ordered"
+  ],
+  "homepage": "https://github.com/avoidwork/tiny-tuple",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
