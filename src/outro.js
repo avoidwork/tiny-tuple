@@ -8,4 +8,4 @@ if ( typeof exports !== "undefined" ) {
 } else {
 	global.tuple = factory;
 }
-} )( typeof global !== "undefined" ? global : window );
+}( typeof window !== "undefined" ? window : global ) );

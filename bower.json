@@ -24,6 +24,10 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "src",
+    "lib/tiny-tuple.es6.js",
+    "lib/tiny-tuple.min.js",
+    "lib/tiny-tuple.min.js.map"
   ]
 }
