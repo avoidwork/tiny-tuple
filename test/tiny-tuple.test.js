@@ -20,5 +20,13 @@ exports["tuple"] = {
 		test.equal(x[3].length, 2, "Should be '2'");
 		test.equal(x.extract().length, 5, "Should be '5'");
 		test.done();
+	},
+	fn: function (test) {
+		var x = tuple(1, function () { return true; });
+
+		test.expect(2);
+		test.equal(x.length, 2, "Should be '2'");
+		test.equal(typeof x[1], "function", "Should be 'function'");
+		test.done();
 	}
 };
