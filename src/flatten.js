@@ -1,13 +1,13 @@
-function flatten ( tuple ) {
+function flatten (tuple) {
 	let result = [];
 
-	tuple.forEach( function ( i ) {
-		if ( i instanceof Tuple ) {
-			result.push.apply( result, flatten( i ) );
+	tuple.forEach(function (i) {
+		if (i instanceof Tuple) {
+			result.push.apply(result, flatten(i));
 		} else {
-			result.push( i );
+			result.push(i);
 		}
-	} );
+	});
 
-	return Object.freeze( result );
+	return Object.freeze(result);
 }

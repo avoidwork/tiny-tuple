@@ -1,11 +1,10 @@
 // Node, AMD & window supported
-if ( typeof exports !== "undefined" ) {
+if (typeof exports !== "undefined") {
 	module.exports = factory;
-} else if ( typeof define === "function" ) {
-	define( function () {
+} else if (typeof define === "function" && define.amd) {
+	define(function () {
 		return factory;
-	} );
+	});
 } else {
 	global.tuple = factory;
-}
-}( typeof window !== "undefined" ? window : global ) );
+}}(typeof window !== "undefined" ? window : global));

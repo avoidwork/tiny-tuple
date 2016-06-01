@@ -7,5 +7,5 @@
 .git
 .gitignore
 .travis.yml
-CHANGELOG.md
 Gruntfile.js
+bower.json

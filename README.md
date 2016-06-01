@@ -15,7 +15,10 @@ Object.isFrozen(x); // true
 
 ## API
 #### extract()
-Returns a frozen Array of flattened Tuple items
+Returns a frozen flat Array of the Tuple
+
+## How can I load Tiny Tuple?
+Tiny Tuple supports AMD loaders (require.js, curl.js, etc.), node.js & npm (npm install tiny-tuple), or using a script tag.
 
 ## License
 Copyright (c) 2015 Jason Mulligan
