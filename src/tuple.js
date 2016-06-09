@@ -6,8 +6,8 @@ function Tuple (...args) {
 	Object.freeze(this);
 }
 
-Tuple.prototype = Array.prototype;
 Tuple.prototype.constructor = Tuple;
+Tuple.prototype = Array.prototype;
 Tuple.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator];
 
 Tuple.prototype.extract = function () {

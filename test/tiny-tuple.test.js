@@ -20,5 +20,10 @@ exports["tuple"] = {
 		test.equal(x[3].length, 2, "Should be '2'");
 		test.equal(x.extract().length, 5, "Should be '5'");
 		test.done();
+	},
+	proto: function (test) {
+		test.expect(1);
+		test.equal([].constructor === Array, true, "Should be 'true'");
+		test.done();
 	}
 };
